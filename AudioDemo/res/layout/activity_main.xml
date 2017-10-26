@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <Button 
+        android:id="@+id/MediaPlayerMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="MediaPlayerMusic"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_below="@+id/MediaPlayerMusic">
+    </ListView>
+    
+    <Button 
+        android:id="@+id/SoundPoolPlayerMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="soundPoolPlayerMusic"
+        android:layout_below="@+id/list"/>
+    
+    <Button 
+        android:id="@+id/AsyncPlayerPlayerMusic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="AsyncPlayerPlayerMusic"
+        android:layout_below="@+id/SoundPoolPlayerMusic"/>
+    
+    <Button 
+        android:id="@+id/jetPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="jetPlayer"
+        android:layout_below="@+id/AsyncPlayerPlayerMusic"/>
+    
+    <Button 
+        android:id="@+id/RingtonePlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:text="RingtonePlayer"
+        android:layout_below="@+id/jetPlayer"/>
+
+</RelativeLayout>

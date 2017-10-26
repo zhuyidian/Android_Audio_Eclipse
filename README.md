@@ -1,3 +1,9 @@
 # Android_Audio_Eclipse
+# 说明
+* AsyncPlayer播放测试
+* jetPlayer播放测试
+* MediaPlayer播放测试
+* RingTonePlayer播放测试
+* SoundPool播放测试
 ## V0.1.1
 * 第一次创建
